@@ -1,4 +1,4 @@
-# CAPSTONE-Sales-Performance-Project
+# CAPSTONE-Sales-Analysis-Project
 This is where i documented my main LITA PROJECT on Sales Performance Analysis.
 
 ---
