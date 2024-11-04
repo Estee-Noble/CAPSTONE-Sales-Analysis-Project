@@ -64,33 +64,23 @@ Seasonal Sales Variations: Analyzing "Order Date" to identify sales peaks and lo
 
 
 
-### Tooo
+### Tools and Steps for Analysis 
 
 
 Data Collection and Extraction
-
 SQL: For querying data directly from databases, filtering, and joining tables. Ideal for handling large datasets and ensuring efficient data extraction.
 
 Excel: Useful for smaller datasets and initial data exploration.
 
 2. Data Cleaning and Preparation
-
-SQL: SQL commands can handle data cleaning tasks directly within the database, such as handling missing values, deduplication, and standardization.
-
-Python (Pandas): Python's Pandas library offers powerful data wrangling capabilities, making it ideal for complex data transformations, handling missing values, and creating calculated fields.
+SQL: SQL commands was used to handle data cleaning tasks directly within the database, such as handling missing value,duplicates, and standardization.
 
 Power Query in Excel: Power Query allows for data transformation and automation in Excel, making it helpful for users working with smaller datasets or familiar with Excel.
 
-
 3. Data Analysis
+Excel (Pivot Tables, Charts): Excel helps to provides powerful features like Pivot Tables for quick aggregations and analysis, making it a go-to tool for many analysts.
 
-Excel (Pivot Tables, Charts): Excel provides powerful features like Pivot Tables for quick aggregations and analysis, making it a go-to tool for many analysts.
-
-SQL: Ideal for aggregations, joining tables, and running complex queries to compute KPIs (like total sales, average order value, etc.) within the database.
-
-Python or R: For deeper statistical analysis, customer segmentation, and advanced calculations (such as time series analysis, clustering, and regression).
-
+SQL: Helps in aggregations, grouping queries (like total sales, average order value, etc.) within the database. 
 
 4. Data Visualization and Reporting
-
 Power BI: Power BI is highly effective for creating interactive dashboards with real-time data connections, filters, and drill-downs, ideal for reporting sales trends and KPIs.
