@@ -9,23 +9,10 @@
 
 ### Project Objective: The main goal is to evaluate the sales performance of a retail store, identify patterns and trends, and provide actionable insights to improve profitability. This analysis will assess key metrics such as revenue, sales growth, customer preferences, and product performance.
 
-### Scope of Analysis
 
-The analysis will cover:
-Sales Trends Over Time: Using the "Order Date" column, analyze sales trends by day, week, month, and year to identify high and low-performing periods.
+### Data Collected 
 
-Regional Performance: Using the "Region" column, evaluate sales performance by different regions to see how geography affects sales.
-
-Product Performance: Track each "Product" to determine top-selling items, identify underperforming products, and analyze product categories.
-
-Customer Behavior: Using "Customer ID," identify customer purchasing patterns, repeat purchases, and loyalty metrics.
-
-Order Analysis: Using "Order ID" and "Quantity," assess the average quantity per order and high-volume products, which can inform stock management and promotional efforts.
-
-
-###Data Collection
-
-The dataset includes the following fields, which will be analyzed as described:
+The dataset includes the following key columns:
 
 Order ID: Unique identifier for each transaction, used for order analysis and ensuring data accuracy.
 
@@ -41,7 +28,24 @@ Quantity: Number of units sold per order, used for calculating sales volume and 
 
 Unit Price: Price per unit of the product, essential for calculating total sales and assessing product pricing strategies.
 
-Total Sales: Total revenue from each transaction (was calculated by multiplying Quantity and Unit Price)
+Total Sales: Total revenue from each transaction (was calculated by multiplying Quantity and Unit Price).
+
+
+### Scope of Analysis
+
+The analysis will cover:
+Sales Trends Over Time: Using the "Order Date" column, analyze sales trends by day, week, month, and year to identify high and low-performing periods.
+
+Regional Performance: Using the "Region" column, evaluate sales performance by different regions to see how geography affects sales.
+
+Product Performance: Track each "Product" to determine top-selling items, identify underperforming products, and analyze product categories.
+
+Customer Behavior: Using "Customer ID," identify customer purchasing patterns, repeat purchases, and loyalty metrics.
+
+Order Analysis: Using "Order ID" and "Quantity," assess the average quantity per order and high-volume products, which can inform stock management and promotional efforts.
+
+
+
 
 ###Key Performance Indicators (KPIs)
 The KPIs includes:
@@ -66,11 +70,10 @@ Seasonal Sales Variations: Analyzing "Order Date" to identify sales peaks and lo
 
 ### Tools and Steps for Analysis 
 
-
 Data Collection and Extraction
-SQL: For querying data directly from databases, filtering, and joining tables. Ideal for handling large datasets and ensuring efficient data extraction.
+SQL: Help in querying data directly from databases, filtering tables and it is ideal for handling large datasets and ensuring efficient data extraction.
 
-Excel: Useful for smaller datasets and initial data exploration.
+Excel: Used for initial data exploration.
 
 2. Data Cleaning and Preparation
 SQL: SQL commands was used to handle data cleaning tasks directly within the database, such as handling missing value,duplicates, and standardization.
