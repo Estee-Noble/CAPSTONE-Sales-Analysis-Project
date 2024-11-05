@@ -87,3 +87,75 @@ SQL: Helps in aggregations, grouping queries (like total sales, average order va
 
 4. Data Visualization and Reporting
 Power BI: Power BI is highly effective for creating interactive dashboards with real-time data connections, filters, and drill-downs, ideal for reporting sales trends and KPIs.
+
+
+### EXPLORATORY DATA ANALYSIS (WITH SQL)
+It involves the exploring of Data to answer some questions about the Data such as:
+Top-selling product
+monthly sales trend
+sales for each product category
+number of sales transaction in each region
+highest selling product by total sales value
+total revenue per product
+monthly sales total for the current year
+the top 5 customers by total purchase amount
+percentage of total sales contributed by Each region
+identify product with no sales in the last quarter
+
+#### STEPS:
+Convert excel sheet to csv
+Remove headers
+import the csv to my sql
+Ensure to format the the date column into YYY-MM-DD while importing the csv into my sql.
+
+-  Total sales for each product category;
+SELECT Product, SUM(Totalsales) As TotalSales
+FROM orders
+GROUP BY Product
+
+-  Number of sales transaction in each region;
+SELECT Region, COUNT(*)As NumberOfTransaction
+FROM Orders
+GROUP BY Region
+
+-  Top selling product by total sales value;
+SELECT Product, SUM(TotalSales) As TotalSales
+FROM orders
+GROUP BY TotalSales DESC
+LIMIT 1
+
+-  Total revenue per product:
+SELECT Product, SUM(TotalSales)As TotalRevenue
+FROM Orders
+GROUP BY Product
+
+- Monthly sales total for the current year;
+SELECT MONTH(OrderDate)As Month, SUM (TotalSales)As MonthlySales
+FROM Orders
+WHERE YEAR(OrderDate)=YEAR(CURDATED())
+GROUP BY MONTH(OrderDate)
+ORDER BY MONTH
+
+-  Top 5 customer by totalpurchase amount;
+SELECT CustomerID,SUM(TotalSales) As TotalPurchase
+FROM orders
+GROUP BY CustomerID
+ORDER BY TotalPurchase DESC
+LIMIT 5
+
+-  Percentage of total sales contributed by each region;
+SELECT Region,
+SUM(TotalSales) As TotalSales,
+(SUN(TotalSaless)/(SELECTSUM(TotalSales)FROM orders)*100) As PercentageOfTotalSales
+FROM orders
+GROUP BY Region
+
+-  Products with no sale in the last quarter;
+SELECT DISTINCT Product
+FROM orders
+WHERE Product NOT IN(
+SELECT Product
+FROM orders
+WHERE OrderDate>=DATE_SUB(CURDATE(),INTERVAL 3 MONTH)
+)
+
