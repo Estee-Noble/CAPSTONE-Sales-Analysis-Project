@@ -89,10 +89,13 @@ i.  Data visualisation: Effective for creating interactive dashboards with real-
 ### EXPLORATORY DATA ANALYSIS (WITH Excel)
 #### Pivot table representation 
 Total sales by Product
+![Screenshot total sales by product](https://github.com/user-attachments/assets/e1135739-6a7e-4e26-b1ca-beb9a0ef4a25)
 
 Total sales by Region
+![Screenshot total sale by region](https://github.com/user-attachments/assets/99b22fd9-176e-4ae3-bba9-f73061e5a314)
 
 Total sales by Month
+![Screenshot total sales by month](https://github.com/user-attachments/assets/811f38e2-7d6d-4f61-ab15-2907ff77e1ac)
 
 Average sales per product
 
