@@ -72,7 +72,7 @@ The KPIs includes:
 
 ### Tools Used
 
--  Microsoft Excel Download Here
+-  Microsoft Excel [Download Here](https:microsoft.com)
 i.  For Data Cleaning, preparation and Analysis
 ii. Data Analysis
 Excel (Pivot Tables, Charts): Excel helps to provides powerful features like Pivot Tables for quick aggregations and analysis, making it a go-to tool for many analysts.
@@ -98,9 +98,10 @@ Total sales by Month
 ![Screenshot total sales by month](https://github.com/user-attachments/assets/811f38e2-7d6d-4f61-ab15-2907ff77e1ac)
 
 Average sales per product
+![Screenshot avg sales by product](https://github.com/user-attachments/assets/e93289d4-9dcb-4953-9a90-69d220210ce6)
 
 Total revenue by region
-
+![Screenshot total revenue by region](https://github.com/user-attachments/assets/2d061f2f-6e66-470b-b01c-ad76ac87eb92)
 
 
 ### EXPLORATORY DATA ANALYSIS (WITH SQL)
