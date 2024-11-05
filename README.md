@@ -4,10 +4,12 @@
 
 ## Project Title: Sales Performance Analysis for a Retail store 
 
-### Project Overview: This sales data provides the analysis of the sales performance of a retail store that will uncover key insights such as top-selling products,regional sales performance and the monthly sales trends and the main goal is to produce an interactive and attractive PowerBI dashboard that analyzes the findings.
+### Project Overview: 
+####This sales data provides the analysis of the sales performance of a retail store that will uncover key insights such as top-selling products,regional sales performance and the monthly sales trends and the main goal is to produce an interactive and attractive PowerBI dashboard that analyzes the findings.
 
 
-### Project Objective: The main goal is to evaluate the sales performance of a retail store, identify patterns and trends, and provide actionable insights to improve profitability. This analysis will assess key metrics such as revenue, sales growth, customer preferences, and product performance.
+### Project Objective: 
+####The main goal is to evaluate the sales performance of a retail store, identify patterns and trends, and provide actionable insights to improve profitability. This analysis will assess key metrics such as revenue, sales growth, customer preferences, and product performance.
 
 
 ### Data Collected 
@@ -24,11 +26,11 @@ The dataset includes the following key columns:
 
 -  **Order Date**: Timestamp of the sale, allowing for time-based trend analysis.
 
--  Quantity: Number of units sold per order, used for calculating sales volume and analyzing customer purchasing behavior.
+-  **Quantity**: Number of units sold per order, used for calculating sales volume and analyzing customer purchasing behavior.
 
--  Unit Price: Price per unit of the product, essential for calculating total sales and assessing product pricing strategies.
+-  **Unit Price**: Price per unit of the product, essential for calculating total sales and assessing product pricing strategies.
 
--  Total Sales: Total revenue from each transaction (was calculated by multiplying Quantity and Unit Price).
+-  **Total Sales**: Total revenue from each transaction (was calculated by multiplying Quantity and Unit Price).
 
 
 ### Scope of Analysis
