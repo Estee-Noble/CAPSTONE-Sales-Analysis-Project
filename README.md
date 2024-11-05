@@ -68,25 +68,26 @@ Seasonal Sales Variations: Analyzing "Order Date" to identify sales peaks and lo
 
 
 
-### Tools and Steps for Analysis 
+### Tools Used
 
-Data Collection and Extraction
-SQL: Help in querying data directly from databases, filtering tables and it is ideal for handling large datasets and ensuring efficient data extraction.
-
-Excel: Used for initial data exploration.
-
-2. Data Cleaning and Preparation
-SQL: SQL commands was used to handle data cleaning tasks directly within the database, such as handling missing value,duplicates, and standardization.
-
-Power Query in Excel: Power Query allows for data transformation and automation in Excel, making it helpful for users working with smaller datasets or familiar with Excel.
-
-3. Data Analysis
+-  Microsoft Excel Download Here
+i.  For Data Cleaning, preparation and Analysis
+ii. Data Analysis
 Excel (Pivot Tables, Charts): Excel helps to provides powerful features like Pivot Tables for quick aggregations and analysis, making it a go-to tool for many analysts.
 
-SQL: Helps in aggregations, grouping queries (like total sales, average order value, etc.) within the database. 
 
-4. Data Visualization and Reporting
-Power BI: Power BI is highly effective for creating interactive dashboards with real-time data connections, filters, and drill-downs, ideal for reporting sales trends and KPIs.
+-  SQL - Structured Query Language
+i.  Quering of Data and Data Collection and Extraction, handling missing values, duplicates and standardization.
+ii. Helps in aggregations, grouping queries (like total sales, average order value, etc.) within the database.
+
+-  Power BI - (Power Business Intelligence)
+i.  Data visualisation: Effective for creating interactive dashboards with real-time data connections, filters, and drill-downs, ideal for reporting sales trends and KPIs.
+
+
+### EXPLORATORY DATA ANALYSIS (WITH Excel)
+
+
+
 
 
 ### EXPLORATORY DATA ANALYSIS (WITH SQL)
