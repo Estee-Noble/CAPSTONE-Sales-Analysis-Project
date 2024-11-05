@@ -47,7 +47,10 @@ Order Analysis: Using "Order ID" and "Quantity," assess the average quantity per
 
 
 
-###Key Performance Indicators (KPIs)
+### Perform an initial exploration of the sales data. Use pivot tables to summarize 
+total sales by product, region, and month.
+oUse Excel formulas to calculate metrics such as average sales per product and 
+total revenue by region.Key Performance Indicators (KPIs)
 The KPIs includes:
 
 Total Revenue (Total Sales): Total of the "Total Sales" column to get overall revenue within the selected period.
@@ -85,8 +88,16 @@ i.  Data visualisation: Effective for creating interactive dashboards with real-
 
 
 ### EXPLORATORY DATA ANALYSIS (WITH Excel)
+#### Pivot table representation 
+Total sales by Product
 
+Total sales by Region
 
+Total sales by Month
+
+Average sales per product
+
+Total revenue by region
 
 
 
@@ -159,4 +170,8 @@ SELECT Product
 FROM orders
 WHERE OrderDate>=DATE_SUB(CURDATE(),INTERVAL 3 MONTH)
 )
+
+### EXPLORATORY DATA ANALYSIS (WITH POWER BI)
+The dashboard include a sales overview, top-performing products, and 
+regional breakdowns.
 
