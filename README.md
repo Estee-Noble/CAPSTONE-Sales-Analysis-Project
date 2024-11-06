@@ -75,6 +75,7 @@ The KPIs includes:
 -  Microsoft Excel [Download Here](https:microsoft.com)
 
 i.  For Data Cleaning, preparation and Analysis
+
 ii. Data Analysis
 Excel (Pivot Tables, Charts): Excel helps to provides powerful features like Pivot Tables for quick aggregations and analysis, making it a go-to tool for many analysts.
 
