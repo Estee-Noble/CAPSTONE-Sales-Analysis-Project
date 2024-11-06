@@ -175,39 +175,31 @@ The dashboard include a sales overview, top-performing products, and regional br
 ![Screenshot Sales performance BI](https://github.com/user-attachments/assets/c09afd91-e948-4161-9371-5d4b5519c0f8)
 
 
-key metrics related to total sales, product performance, and regional distribution across different periods. Here’s a breakdown of each section of the dashboard and the insights they provide:
 
-1. Top Key Metrics
+ #### Visualizations and Analysis
 
-Sum of Total Sales: Shows the cumulative sales figure, which is 10,587,500.
+-  Sum of Total Sales by Product: A bar chart compares the total sales by each product type. The Shirt and Shoes categories lead, with sales figures around 326.67 and 308.75, respectively, indicating these products are the top sellers.
 
-Average of Total Sales: Displays the average sales amount, which is 212.
+-  Sum of Total Sales by Region: A pie chart shows the distribution of sales across four regions: South (44.16%), North (23.14%), East (18.42%), and West (14.29%). The South region has the highest sales, contributing nearly half of the total.
 
+-  Count of Product by Region: Another pie chart represents the count of product transactions by region, suggesting where each product is most sold. The North and South regions have nearly equal transaction shares.
 
-2. Visualizations and Analysis
+-  Sum of Total Sales by Month: A bar chart shows monthly sales. March has the highest sales (1.3M), followed by April (1.4M), indicating potential seasonal trends or successful marketing efforts during these months.
 
-Sum of Total Sales by Product: A bar chart compares the total sales by each product type. The Shirt and Shoes categories lead, with sales figures around 326.67 and 308.75, respectively, indicating these products are the top sellers.
-
-Sum of Total Sales by Region: A pie chart shows the distribution of sales across four regions: South (44.16%), North (23.14%), East (18.42%), and West (14.29%). The South region has the highest sales, contributing nearly half of the total.
-
-Count of Product by Region: Another pie chart represents the count of product transactions by region, suggesting where each product is most sold. The North and South regions have nearly equal transaction shares.
-
-Sum of Total Sales by Month: A bar chart shows monthly sales. March has the highest sales (1.3M), followed by April (1.4M), indicating potential seasonal trends or successful marketing efforts during these months.
-
-Product Sum Total by Year: A table breaks down each product's total sales over the years from 2022 to 2024, with cumulative totals. Products such as Shoes and Shirts again show consistently high totals across the years.
+-  Product Sum Total by Year: A table breaks down each product's total sales over the years from 2022 to 2024, with cumulative totals. Products such as Shoes and Shirts again show consistently high totals across the years.
 
 
-Insights
+#### Insights
 
-Product Performance: Shirts and Shoes are the top-performing products, showing higher demand compared to others like Socks and Jackets.
+-  Product Performance: Shirts and Shoes are the top-performing products, showing higher demand compared to others like Socks and Jackets.
 
-Regional Trends: The South region is the highest contributor to sales, indicating strong market presence or demand in that area.
+-  Regional Trends: The South region is the highest contributor to sales, indicating strong market presence or demand in that area.
 
-Monthly Trends: Sales are highest in March and April, suggesting a seasonal trend or possibly an effective promotional strategy during those months.
+-  Monthly Trends: Sales are highest in March and April, suggesting a seasonal trend or possibly an effective promotional strategy during those months.
 
-Yearly Growth: Total sales have grown over time, with significant contributions from all product categories, particularly in 2024.
+-  Yearly Growth: Total sales have grown over time, with significant contributions from all product categories, particularly in 2024.
 
 
-This dashboard provides a comprehensive view of sales performance across different dimensions, helping decision-makers understand product demand, regional preferences, and seasonal trends.
+#### Conclusion: This dashboard provides a comprehensive view of sales performance across different dimensions, helping decision-makers understand product demand, regional preferences, and seasonal trends.
 
 
