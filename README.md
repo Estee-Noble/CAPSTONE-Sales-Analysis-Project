@@ -171,4 +171,5 @@ WHERE OrderDate>=DATE_SUB(CURDATE(),INTERVAL 3 MONTH)
 ### EXPLORATORY DATA ANALYSIS (WITH POWER BI)
 The dashboard include a sales overview, top-performing products, and regional breakdowns.
 
+
 ![Screenshot Sales performance BI](https://github.com/user-attachments/assets/c09afd91-e948-4161-9371-5d4b5519c0f8)
